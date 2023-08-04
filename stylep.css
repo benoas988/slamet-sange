@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #203647;
+}
+#headerp{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.containerp{
+    padding: 10px 1%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background:#4dabda;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+
+
+/* ----------------------------MULAI PORTFOLIO----------------- */
+/* -----------------------evcs v1------------------------- */
+.judul{
+    padding: 3% 1%;
+}
+.judul h1{
+    font-size: 80px;
+    color: white;
+}
+.judul h1 span{
+    color: #4dabda;
+}
+
+.subjudul{
+    padding: 0 1%;
+}
+.subjudul h1{
+    font-size: 30px;
+    color: white;
+}
+.subjudul h1 span{
+    color: #63b8b8;
+}
+
+.kontainer{
+    margin-top: 15px;
+    display: flex;
+    height: 100%;
+}
+.section{
+    color: white;
+    border-radius: 20px;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+.section img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.section p{
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+
+/* ---------------------------------rasena------------------------------- */
+.subjudul-rasena{
+    padding: 0 1%;
+    margin-top: 60px;
+}
+.subjudul-rasena h1{
+    font-size: 30px;
+    color: white;
+}
+.subjudul-rasena h1 span{
+    color: #63b8b8;
+}
+
+.kontainer2{
+    margin-top: 15px;
+    display: flex;
+    height: 100%;
+}
+.section2{
+    color: white;
+    border-radius: 20px;
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+.section2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.section2 p{
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: justify;
+}
+
+

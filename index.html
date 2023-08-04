@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="beno-logo.png" class="logo">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#" id="tentang">ABOUT ME</a></li>
+                    <li><a href="#" id="port">PORTFOLIO</a></li>
+                    <li><a href="#" id="pro">EXPERIENCE</a></li>
+                    <li><a href="#" id="kontak">CONTACT</a></li>
+                    <div class="header-text">
+                        <p>Electrical Engineering</p>
+                        <h1>Hi, I'm <span>Beno.</span></h1>
+                        <h2>Nice to <span>Meet</span> You Here!</h2>
+                        <h3>Let's Find Out<span> About</span> Me.</h3>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+<!-- ---------------------------------tentang saya---------------------------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="profile_set.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About <span>Me</span></h1>
+                <p>1st Head of the Electrical Engineering Student Association Airlangga University | General Manager in the Rasena EV Team | Neopyhte Initiators | Occasionally Researching Electric Vehicles, Internet of Things, Power Electronics, and other Projects.</p>
+
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span><strong>HARDWARE</strong></span><br>PCB Design
+                            <br>Power Electronics
+                            <br>Pick and Place Components</li>
+                        <li><span><strong>FIRMWARE</strong></span>
+                            <br>Embedded System (STM32 && Arduino && ESP)
+                            <br>do C/C++, Python</li>
+                        <li><span><strong>SOFTWARE</strong></span>
+                            <br>Android APP (Android Studio, Figma)
+                            <br>Desktop Software (Qt)
+                            <br>do Java, Xml, Html, CSS, JavaScript</li>
+                        <li><span><strong>CONTROL SYSTEMS</strong></span>
+                            <br>FOC, PID, MPC, State Feedback & Full Order State Observer
+                            <br>Interested in Closed Loop Systems</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span><strong>MY EXPERIENCE SO FAR :</strong></span></li>
+                        <li><br>Developed an Energy-Efficient Electric Car 1.6 kW : Urban Concept
+                            <br>Developed an Electric Vehicle Charging Station Type-2 : AC Power
+                            <br>Wall Follower Robot using PID Controller
+                            <br>Artificial Pancreas for Type-2 Diabetes Mellitus using MPC & PID MATLAB Models
+                            <br>Developed a PMSM Motor Controller using FOC upto 400 A 1.5 kW (Powered by VESC)
+                            <br>Non-Contact Test Pen with Full Analog Circuit
+                            <br>Developed a IoT Smart Home Systems using ESP32 & Firebase
+                            <br>Developed an Android Application : Digital Maps for the Residents of Klumutan Village, Saradan, Madiun
+                            <br>Involved in a Expert Team : Lab Test of Street Lighting Components, Lamongan
+                            <br>Matching-Fund Program, Kedaireka, KEMDIKBUD : PLTS 1 MW UP Cirata PT. Pembangkitan Jawa-Bali, Purwakarta
+                            <br>Matching-Fund Program, Kedaireka, KEMDIKBUD : EVCS Merah Putih, PT. Barata Indonesia, Gresik</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span><strong>CURRENT PROJECT : </strong></span>
+                            <li><br>Developing Energy-Efficient Electric Car
+                            <br>Developing PMSM Motor Controller using FOC (Competition Purposes)
+                            <br>Developing AC Electric Vehicle Charging Station with IoT Systems (Matching-Fund, PT. Barata Indonesia)</li>
+                    </ul>
+                </div>
+                <button id="kembali_ke_atas" title="PgUp">Back to Home</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+
+
+
+</body>
+</html>
